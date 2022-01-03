@@ -1,13 +1,33 @@
 .page {
   max-width: 1024px;
   margin: 0 auto;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: justify;
   line-height: 1.8;
   color: #fff;
   background-color: #333;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav a {
+  padding: 14px 10px;
+  line-height: 50px;
+  color: black;
+}
+.nav a:hover {
+  background-color: #f2c100;
+}
+.nav a:active {
+  color: white;
+  text-decoration: none;
 }
 
 a {
