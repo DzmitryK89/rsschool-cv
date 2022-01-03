@@ -11,17 +11,29 @@
 
 <body class = "page">
     <header class = "header">
+
+   <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#contact_info">Contact info</a></li>
+        <li class="nav__item"><a href="#summary">Summary</a></li>
+        <li class="nav__item"><a href="#education">Education and Work Experience</a></li>
+        <li class="nav__item"><a href="#skills">Skills</a></li>
+        <li class="nav__item"><a href="#code">Example of code</a></li>
+        <li class="nav__item"><a href="#languages">Languages</a></li>
+       </ul>
+    </nav>
+
         <h1 class = "my-name">Dmitry Kachubei</h1>
         <figure class="fugure-photo">
             <img src="./img/photo.jpg" alt="my photo" class="photo">
         </figure>
 
         <section class = contacts>
-            <h2 class = "contacts-title">Contact info:</h2>
+            <h2 class = "contacts-title" id="contact_info">Contact info:</h2>
             <ul class = "contacts-list">
                 <li class = "contacts-item">
                 <span class = "text-bold">Phone:</span>
-                    <a href = "tel:+375255284866">+375 29 528-48-66 </a>
+                    <a href = "tel:+375255284866">+375 25 528-48-66 </a>
                 </li>
                 <li class = "contacts-item">
                 <span class = "text-bold">Email:</span>
@@ -33,14 +45,14 @@
 
     <main>
     <section class = "feature">
-        <h2 class = "feature-title">Summary</h2>
+        <h2 class = "feature-title" id="summary">Summary</h2>
         <p>
             I work as an engineer. At the moment i deceided to change my profession. 
             I have chosen Front-end Development. I want to grow professionally in this area.
         </p>
     </section>
     <section class = "feature">
-        <h2 class = "feature-title">Education and Work Experience</h2>
+        <h2 class = "feature-title" id="education">Education and Work Experience</h2>
         <ul class = "feature-list">
             <li class = "feature-item"><p>2012-2021 - Enineer. </p></li>
             <li class = "feature-item"><p>2007-2012 - Belarusian State University of Informatics and Radioelectronics</p></li>
@@ -48,7 +60,7 @@
         </ul>
     </section>
     <section class = "feature">
-        <h2 class = "feature-title">Skills</h2>
+        <h2 class = "feature-title" id="skills">Skills</h2>
         <ul class = "feature-list">
             <li class = "feature-item">SQL</li>
             <li class = "feature-item">HTML5</li>
@@ -60,7 +72,7 @@
         </ul>
     </section>
     <section class = "feature">
-        <h2 class = "feature-title">Example of code</h2>
+        <h2 class = "feature-title" id="code">Example of code</h2>
         <pre><code>
            function century(year) {
              return Math.ceil(year/100);
@@ -68,7 +80,7 @@
         </code></pre>
     </section>
     <section class="feature">
-          <h3 class="feature-title">Languages</h3>
+          <h3 class="feature-title" id="languages">Languages</h3>
           <p>English - A2</p>        
     </section>
     </main>
@@ -80,7 +92,7 @@
          </a>
     </div>
     <div class = "footer-block">
-         <a href="https://github.com/Dmitriy-ko" target="_blank" rel="noopener noreferrer" class="footer-link">
+         <a href="https://github.com/DzmitryK89" target="_blank" rel="noopener noreferrer" class="footer-link">
             <h4 class="github">My GitHub</h4>
          </a>
          <h5 class="footer-text">2021</h5>
